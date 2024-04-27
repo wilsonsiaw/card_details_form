@@ -7,6 +7,22 @@
     
         position: relative;
     }
+
+    .cardBack img {
+        max-width: 70%;
+
+        position: absolute;
+        left: 25%;
+        top: 8%;
+    }
+
+    .cardFront img {
+        max-width: 70%;
+
+        position: absolute;
+        left: 10%;
+        top: 19%;
+    }
     
     .formContainer {
         width: 90%;
