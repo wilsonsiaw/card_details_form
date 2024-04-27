@@ -6,6 +6,14 @@ function App() {
 
   return (
     <div className={styles.container}>
+      <div className={styles.cardContainer}>
+        <div className={styles.cardBack}>
+          <img src="/images/bg-card-back.png" alt="Image of the back of a bank card" />
+        </div>
+        <div className={styles.cardFront}>
+          <img src="/images/bg-card-front.png" alt="Image of the front of a bank card" />
+        </div>
+      </div>
       <div className={styles.formContainer}>
         <form action="">
           <label htmlFor="cardholder-name">CARDHOLDER NAME</label>
