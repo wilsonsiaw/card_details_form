@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import styles from "/src/home.module.css"
 
 function App() {
 
   return (
-    <div>
+    <div className={styles.container}>
       <form action="">
         <label htmlFor="cardholder-name">CARDHOLDER NAME</label>
         <input 
