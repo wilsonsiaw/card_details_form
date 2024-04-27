@@ -1,0 +1,6 @@
+.container {
+    height: 100vh;
+    background-image: url('../public/images/bg-main-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
